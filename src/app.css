@@ -1,8 +1,56 @@
 body {
 	@apply min-w-full min-h-screen flex flex-col justify-center items-stretch;
 	direction: rtl;
+	font-family: 'Baloo Bhaijaan 2';
 }
 /* Write your global styles here, in PostCSS syntax */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Fonts */
+/* baloo-bhaijaan-2-regular - arabic */
+@font-face {
+	font-family: 'Baloo Bhaijaan 2';
+	font-style: normal;
+	font-weight: 400;
+	src: local(''), url('../fonts/baloo-bhaijaan-2-v12-arabic-regular.woff2') format('woff2'),
+		/* Chrome 26+, Opera 23+, Firefox 39+ */
+			url('../fonts/baloo-bhaijaan-2-v12-arabic-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* baloo-bhaijaan-2-500 - arabic */
+@font-face {
+	font-family: 'Baloo Bhaijaan 2';
+	font-style: normal;
+	font-weight: 500;
+	src: local(''), url('../fonts/baloo-bhaijaan-2-v12-arabic-500.woff2') format('woff2'),
+		/* Chrome 26+, Opera 23+, Firefox 39+ */ url('../fonts/baloo-bhaijaan-2-v12-arabic-500.woff')
+			format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* baloo-bhaijaan-2-600 - arabic */
+@font-face {
+	font-family: 'Baloo Bhaijaan 2';
+	font-style: normal;
+	font-weight: 600;
+	src: local(''), url('../fonts/baloo-bhaijaan-2-v12-arabic-600.woff2') format('woff2'),
+		/* Chrome 26+, Opera 23+, Firefox 39+ */ url('../fonts/baloo-bhaijaan-2-v12-arabic-600.woff')
+			format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* baloo-bhaijaan-2-700 - arabic */
+@font-face {
+	font-family: 'Baloo Bhaijaan 2';
+	font-style: normal;
+	font-weight: 700;
+	src: local(''), url('../fonts/baloo-bhaijaan-2-v12-arabic-700.woff2') format('woff2'),
+		/* Chrome 26+, Opera 23+, Firefox 39+ */ url('../fonts/baloo-bhaijaan-2-v12-arabic-700.woff')
+			format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* baloo-bhaijaan-2-800 - arabic */
+@font-face {
+	font-family: 'Baloo Bhaijaan 2';
+	font-style: normal;
+	font-weight: 800;
+	src: local(''), url('../fonts/baloo-bhaijaan-2-v12-arabic-800.woff2') format('woff2'),
+		/* Chrome 26+, Opera 23+, Firefox 39+ */ url('../fonts/baloo-bhaijaan-2-v12-arabic-800.woff')
+			format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
